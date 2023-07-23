@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, roboto;
+}
+
+.main-content{
+    height: 700px;
+    width: 100%;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.9)0, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.9) 100% ), url("data/netflix-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 86px;
+    margin: 10px 154px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 40px;
+    width: 148px;
+}
+
+.nav-side{
+    height: 32px;
+    display: flex;
+    /* align-items: center; */
+
+}
+.lang select{
+    height: 32px;
+    width: 80px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.lang{
+    border: 2px solid lightslategray;
+    color: white;
+    margin-right: 20px;
+    border-radius: 4px;
+    padding: 0px 9px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#signin-button{
+    width: 74px;
+    font-weight: 600;
+    padding: 4px 16px;
+}
+
+.btn{
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(144, 3, 3);
+}
+
+.heading-part{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.heading-part p{
+    padding-top: 1rem;
+    font-size: 18px;
+}
+
+.heading-part h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.email-part{
+    height: 48px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#email-input{
+    height: 48px;
+    width: 376px;
+    padding: 10px 16px 10px;
+    font-size: large;
+    margin-right: 8px;
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid rgb(68, 77, 86);
+    border-radius: 4px;
+    
+}
+
+.email-btn{
+    height: 48px;
+    width: 200px;
+    padding: 8px 0px 10px;
+    font-size: 24px;
+}
+
+.border-top{
+
+    border-top: 0.5rem solid rgb(35, 35, 35);
+
+}
+
+.section2{
+    background-color: black;
+    height: 505px;
+    width: 100%;
+    display: flex;
+    padding: 72px 155px;
+}
+
+.section-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-text h2{
+    font-size: 48px;
+    color: white;
+}
+.section-text p{
+    font-size: 24px;
+    color: white;
+    margin-top: 16px;
+    font-weight: 600;
+}
+.section-animation{
+    height: 100%;
+    width: 50%;
+}
+
+.an-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("data/tv.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+
+}
+.animation{
+    position: absolute;
+    top: 48px;
+    left: 85px;
+}
+
+video {
+    width: 90%; 
+    height: auto;
+    z-index: -2;
+  }
+
+
+.section3-animation{
+    height: 100%;
+    width: 50%;
+}
+  .an1-img{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8)0, rgba(0,0,0,0)60%, rgba(0,0,0,0)100%), url("data/mobile-0819.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .boxshot{
+    height: 90px;
+    width: 300px;
+    background-color: black;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 152px;
+    display: flex;
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid lightslategray;
+    
+  }
+  .boxshot-paras{
+    align-self: center;
+    margin-left: 1rem;
+  }
+
+  .boxshot-paras #p2{
+    color: blue;
+  }
+
+  .download-animation{
+    align-self: center;
+    margin-left: 70px;
+    
+  }
+
+  .section4-animation{
+    display: flex;
+    padding-top: 10px;
+    position: relative;
+  }
+
+.animation2 video{
+    padding-left: 45px;
+    z-index: 2;
+}
+
+#device-pile{
+    position: absolute;
+    z-index: 4;
+    right: -60px;
+    bottom: -100px;
+}
+
+.section5-img{
+    height: 100%;
+    width: 80%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8)0, rgba(0,0,0,0)60%, rgba(0,0,0,0.8)100%), url("data/children.png");
+    background-size: cover;
+
+}
+
+.ques-sec{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 72px 180px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ques-sec h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.ques_box{
+    background-color: #2D2D2D;
+    height: 84px;
+    width: 100%;
+    color: white;
+    padding: 24px;
+    margin: 5px 0px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ques_box:hover{
+    background-color: #696868 ;
+}
+
+#para3{
+    padding-top: 1.5rem;
+    font-size: 20px;
+    color: white;
+}
+
+.f_panel{
+    display: flex;
+    flex-direction: column;
+    color: #989898;
+    padding: 50px 180px;
+    background-color: black;
+}
+
+.f_panel p{
+    margin-bottom: 40px;
+}
+
+.foot_panel{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.foot_panel ul{
+    margin-right: 250px;
+}
+.foot_panel ul a{
+    display: block;
+    color:  #989898;
+    margin-bottom: 10px;
+}
+
+#langselected{
+    width: 125px;
+    margin-bottom: 30px;
+}
+
+/* CONTACT PAGE */
+
+.main_content{
+    height: 150vh;
+    width: 100%;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.8)0, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.8) 100% ), url("data/netflix-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* align-items: center; */
+}
+
+.navbar_contactpage{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.navbar_contactpage img{
+    height: 55px;
+    width: 180px;
+}
+
+.sign-in-box{
+    height: 660px;
+    width: 450px;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self: center;
+    padding: 60px 68px 40px;
+}
+
+.sign-in-box h1{
+    font-size: 32px;
+    font-weight: 500px;
+    margin-bottom: 28px;
+    color: white;
+}
+
+.sign-in-box .input1{
+    border: none;
+    height: 50px;
+    width: 314px;
+    padding: 16px 20px 16px;
+    background-color: #333333;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.sign-in-box-btn{
+    border: none;
+    height: 50px;
+    width: 314px;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.sign-in-box label{
+    color: #6b6a6a;
+    font-size: 0.8rem;
+}
+
+input #remembered{
+    accent-color: gray;
+}
+
+#need_help{
+    margin-left: 140px;
+    color: #6b6a6a;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+#p1{
+    margin-top: 50px;
+    color: #6b6a6a;
+}
+
+#p1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#p2{
+    color: #6b6a6a;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+#p2 a{
+    text-decoration: none;
+    color: blue;
+}
