@@ -300,10 +300,10 @@ video {
     margin-bottom: 40px;
 }
 
-.foot_panel ul{
+.foot_panel .main-page-list{
     margin-right: 250px;
 }
-.foot_panel ul a{
+.foot_panel .main-page-list a{
     display: block;
     color:  #989898;
     margin-bottom: 10px;
@@ -349,6 +349,7 @@ video {
     box-sizing: border-box;
     align-self: center;
     padding: 60px 68px 40px;
+    margin-bottom: 100px;
 }
 
 .sign-in-box h1{
@@ -419,4 +420,52 @@ input #remembered{
 #p2 a{
     text-decoration: none;
     color: blue;
+}
+
+.contact-footer{
+    height: 350px;
+    color: white;
+    padding: 30px 220px;
+    background-color: rgba(0,0,0,.75);
+    color:  #989898;
+    
+}
+
+.contact-footer p a{
+    text-decoration: none;
+    color:  #989898;
+}
+
+.end-part {
+    margin-top: 40px;
+    display: flex;
+}
+
+.end-part a{
+    display: block;
+    color:  #989898;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.contact-footer #langselected{
+    margin-top: 30px;
+    background-color: black;
+    color:  #989898;
+}
+
+.link-hover:hover{
+    text-decoration: underline;
+}
+
+#need_help:hover{
+    text-decoration: underline;
+}
+
+#p1 a:hover{
+    text-decoration: underline;
+}
+
+#p2 a:hover{
+    text-decoration: underline;
 }
