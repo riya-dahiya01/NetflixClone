@@ -18,8 +18,8 @@ This project is a Netflix clone that aims to replicate some of the core features
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 1](Screenshots/Screenshot 1.png)
+![Screenshot 2](Screenshots/Screenshot 2.png)
 
 ## Demo
 
