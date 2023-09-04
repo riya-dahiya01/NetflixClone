@@ -23,7 +23,7 @@ This project is a Netflix clone that aims to replicate some of the core features
 
 ## Demo
 
-You can experience a live demo of this Netflix clone by visiting [this link](https://netflix-clone-pnbajzi0z-riya-dahiya01.vercel.app/). 
+You can experience a live demo of this Netflix clone by visiting [this link](https://peaceful-crisp-ca1882.netlify.app). 
 
 ## Usage
 
