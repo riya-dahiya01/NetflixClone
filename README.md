@@ -14,7 +14,7 @@
   
 ## Introduction
 
-This project is a Netflix clone that aims to replicate some of the core features and user interface of the popular streaming platform Netflix. It's built using HTML and CSS to provide an immersive streaming experience.
+This project is a Netflix clone that aims to replicate some of the core features and user interface of the popular streaming platform Netflix on bigger screens. It's built using HTML and CSS to provide an immersive streaming experience.
 
 ## Screenshots
 
